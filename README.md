@@ -1,3 +1,5 @@
+# RISC-V-Piplined-Architecture
+
 ## About the Project:
 This project is a RISC-V 5-Stage Pipelined Processor built to show how a processor can execute instructions more efficiently by dividing the work into different stages. The processor uses a pipeline, which allows it to process multiple instructions at the same time by splitting them into 5 stages: Instruction Fetch, Instruction Decode, Execution, Memory Access, and Write Back.
 
@@ -35,20 +37,20 @@ gtkwave processor.vcd
 This will open a graphical waveform viewer where you can see the processor's activity over time.
 
 # What’s Inside the Processor
-# Pipeline Stages
+## Pipeline Stages
 The processor works by breaking each instruction into five steps:
 
-# 1:Instruction Fetch (IF): Get the instruction from memory.
-#Instruction Decode (ID): Figure out what the instruction is and prepare the needed data.
-Execution (EX): Perform the actual operation (like adding numbers or comparing values).
-Memory Access (MEM): Read or write data from/to memory.
-Write Back (WB): Write the result back to the register file.
-Supported Instructions
+## 1:Instruction Fetch (IF):  *Get the instruction from memory.*
+## 2:Instruction Decode (ID): *Figure out what the instruction is and prepare the needed data.*
+## 3:Execution (EX): *Perform the actual operation (like adding numbers or comparing values).*
+## 4:Memory Access (MEM): *Read or write data from/to memory.*
+## 5:Write Back (WB): *Write the result back to the register file.*
+# Supported Instructions
 The processor supports the basic RISC-V instructions, such as:
 
-Arithmetic: ADD, SUB, AND, OR, XOR
-Load/Store: LW, SW, etc.
-Branch: BEQ, BNE, BLT, etc.
-Jump: JAL, JALR
-How It Helps You Learn
+-- Arithmetic: ADD, SUB, AND, OR, XOR
+-- Load/Store: LW, SW, etc.
+-- Branch: BEQ, BNE, BLT, etc.
+-- Jump: JAL, JALR
+# How It Helps You Learn
 This project is perfect for understanding how a processor works, especially how it uses a pipeline to speed up the execution of instructions. It’s a great starting point for anyone learning about computer architecture or pipelined processors.
