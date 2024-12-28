@@ -40,17 +40,22 @@ This will open a graphical waveform viewer where you can see the processor's act
 ## Pipeline Stages
 The processor works by breaking each instruction into five steps:
 
-## 1:Instruction Fetch (IF):  *Get the instruction from memory.*
-## 2:Instruction Decode (ID): *Figure out what the instruction is and prepare the needed data.*
-## 3:Execution (EX): *Perform the actual operation (like adding numbers or comparing values).*
-## 4:Memory Access (MEM): *Read or write data from/to memory.*
-## 5:Write Back (WB): *Write the result back to the register file.*
+## 1:Instruction Fetch (IF):  
+*Get the instruction from memory.*
+## 2:Instruction Decode (ID): 
+*Figure out what the instruction is and prepare the needed data.*
+## 3:Execution (EX):
+*Perform the actual operation (like adding numbers or comparing values).*
+## 4:Memory Access (MEM):
+*Read or write data from/to memory.*
+## 5:Write Back (WB):
+*Write the result back to the register file.*
 # Supported Instructions
 The processor supports the basic RISC-V instructions, such as:
 
-++ Arithmetic: ADD, SUB, AND, OR, XOR
-++ Load/Store: LW, SW, etc.
--- Branch: BEQ, BNE, BLT, etc.
+1: Arithmetic: ADD, SUB, AND, OR, XOR
+2: Load/Store: LW, SW, etc.
+3 :Branch: BEQ, BNE, BLT, etc.
 -- Jump: JAL, JALR
 # How It Helps You Learn
 This project is perfect for understanding how a processor works, especially how it uses a pipeline to speed up the execution of instructions. It’s a great starting point for anyone learning about computer architecture or pipelined processors.
