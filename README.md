@@ -53,9 +53,13 @@ The processor works by breaking each instruction into five steps:
 # Supported Instructions
 The processor supports the basic RISC-V instructions, such as:
 
-1: Arithmetic: ADD, SUB, AND, OR, XOR
-2: Load/Store: LW, SW, etc.
-3 :Branch: BEQ, BNE, BLT, etc.
--- Jump: JAL, JALR
+# 1: Arithmetic: 
+ADD, SUB, AND, OR, XOR
+# 2: Load/Store: 
+LW, SW, etc.
+# 3:Branch: 
+BEQ, BNE, BLT, etc.
+# 4:Jump: 
+JAL, JALR
 # How It Helps You Learn
 This project is perfect for understanding how a processor works, especially how it uses a pipeline to speed up the execution of instructions. It’s a great starting point for anyone learning about computer architecture or pipelined processors.
