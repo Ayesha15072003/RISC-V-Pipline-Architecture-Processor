@@ -34,6 +34,7 @@ vsim -c tb_processor -voptargs=+acc -do "run -all"
 After running the simulation, you can view the results using GTKWave:
 
 gtkwave processor.vcd
+
 This will open a graphical waveform viewer where you can see the processor's activity over time.
 
 # What’s Inside the Processor
