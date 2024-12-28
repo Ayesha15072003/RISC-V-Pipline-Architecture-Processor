@@ -17,8 +17,8 @@ Memory Access: Supports both reading from and writing to memory.
 # 1. Clone the Repository
 First, get a copy of the project by running the following command:
 
-git clone https://github.com/EbaaHaq/RISC-V-5-Stage-Pipelined-Processor.git
-cd RISC-V-5-Stage-Pipelined-Processor
+git clone https://github.com/Ayesha15072003/RISC-V-Pipline-Architecture-Processor
+cd RISC-Pipeline-Architecture-Processor
 # 2. Open the Project
 Open the project in VSCode or any editor of your choice. Make sure you have the necessary extensions installed to work with SystemVerilog.
 
@@ -48,8 +48,8 @@ The processor works by breaking each instruction into five steps:
 # Supported Instructions
 The processor supports the basic RISC-V instructions, such as:
 
--- Arithmetic: ADD, SUB, AND, OR, XOR
--- Load/Store: LW, SW, etc.
+++ Arithmetic: ADD, SUB, AND, OR, XOR
+++ Load/Store: LW, SW, etc.
 -- Branch: BEQ, BNE, BLT, etc.
 -- Jump: JAL, JALR
 # How It Helps You Learn
